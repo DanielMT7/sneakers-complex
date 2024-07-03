@@ -1,19 +1,18 @@
 import { Outlet } from 'react-router-dom'
 
 import Navbar from './components/Navbar/Navbar'
+import { ShoppingCartProvider } from './context/ShoppingCartContext'
 
-// Images
-//import Banner from './assets/images/BannerPromo.jpg'
-// import Banner2 from './assets/images/BannerPromo2.jpg'
-
-function App() {
+const App = () => {
   return (
-    <div className="w-screen h-screen">
-      <Navbar />
-      <main className="pt-24 max-w-6xl m-auto">
-        <Outlet />
-      </main>
-    </div>
+    <ShoppingCartProvider>
+      <div>
+        <Navbar />
+        <main className="pt-24 px-8 max-w-6xl m-auto">
+          <Outlet />
+        </main>
+      </div>
+    </ShoppingCartProvider>
   )
 }
 
