@@ -1,35 +1,62 @@
-type BannerProps = {
-  data: {
-    brandName: string
-    bannerURL: string
-    bannerALT: string
-    smallBannerURL: string
-    hasButton: boolean
-    buttonText?: string
-    hasText: boolean
-    bannerText?: string
-    bannerCallText?: string
+import { useEffect, useState } from 'react'
+
+import BannerProps from '../../../types/Banner'
+
+type BannerSearchProps = {
+  searchParams: {
+    searchParam: string
+    searchId: number
   }
 }
 
-function Banner({ data }: BannerProps) {
+function Banner({ searchParams }: BannerSearchProps) {
+  const { searchParam, searchId } = searchParams
+  const [banner, setBanner] = useState<BannerProps | null>(null)
+
+  useEffect(() => {
+    fetch(`http://localhost:3000/${searchParam}`)
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok: ' + response.statusText)
+        }
+        return response.json()
+      })
+      .then(data => {
+        const foundBanner = data.find(
+          (item: BannerProps) => item.bannerId === searchId
+        )
+        if (foundBanner) {
+          setBanner(foundBanner)
+        } else {
+          console.error(`Banner with id ${searchId} not found.`)
+        }
+      })
+      .catch(error => {
+        console.error('Error message: ', error)
+      })
+  }, [])
+
+  console.log(banner)
+
+  if (!banner) return null
+
   const {
-    bannerALT,
     bannerURL,
+    bannerALT,
     smallBannerURL,
     hasButton,
     buttonText,
-    hasText,
+    hasBannerText,
     bannerText,
     bannerCallText
-  } = data
+  } = banner
 
   return (
     <div className="space-y-6">
       <img className="hidden sm:block" src={bannerURL} alt={bannerALT} />
       <img className="sm:hidden" src={smallBannerURL} alt={bannerALT} />
 
-      {hasText && (
+      {hasBannerText && (
         <div>
           <h1 className="text-sm sm:text-md text-center font-bold">
             {bannerText}
