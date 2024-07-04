@@ -1,28 +1,41 @@
 //import { useShoppingCart } from '../../../context/ShoppingCartContext'
+import { useEffect, useState } from 'react'
+
 import formatCurrency from '../../../utils/formatCurrency'
 
-type ShoeProps = {
-  shoeId: number
-  shoeBrandName: string
-  shoeURL: string
-  shoeName: string
-  shoeGenre: string
-  shoePrice: number
-  shoeDiscountedPrice: number
-}
+import ShoeProps from '../../../types/Shoe'
 
-type HomeShoesProps = {
-  data: ShoeProps[]
+type HomeShoesProp = {
+  searchParam: string
 }
 
 // A parte comentada é a função que adiciona um item ao carrinho.
 
-const HomeShoes = ({ data }: HomeShoesProps) => {
+const HomeShoes = ({ searchParam }: HomeShoesProp) => {
   //const { increaseCartQuantity } = useShoppingCart()
+  const [shoes, setShoes] = useState<ShoeProps[]>([])
+
+  useEffect(() => {
+    fetch(`http://localhost:3000/${searchParam}`)
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok: ' + response.statusText)
+        }
+        return response.json()
+      })
+      .then(data => {
+        setShoes(data)
+      })
+      .catch(error => {
+        console.error('Error message: ', error)
+      })
+  }, [])
+
+  if (!shoes) return null
 
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-      {data.map((shoe, index) => {
+      {shoes.map((shoe, index) => {
         const {
           //shoeId,
           shoeBrandName,
@@ -50,9 +63,11 @@ const HomeShoes = ({ data }: HomeShoesProps) => {
               {formatCurrency(shoePrice)}
             </p>
 
-            <p className="text-md text-green-600">
-              {formatCurrency(shoeDiscountedPrice)}
-            </p>
+            {shoeDiscountedPrice && (
+              <p className="text-md text-green-600">
+                {formatCurrency(shoeDiscountedPrice)}
+              </p>
+            )}
 
             {/*<button onClick={() => increaseCartQuantity(shoeId)}>
               add Cart
