@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react'
 import { useShoppingCart } from '../../context/ShoppingCartContext'
 
 import formatCurrency from '../../utils/formatCurrency'
@@ -6,7 +7,7 @@ import deleteIcon from './../../assets/icons/delete.svg'
 import addIcon from './../../assets/icons/add.svg'
 import removeIcon from './../../assets/icons/remove.svg'
 
-import { AllShoes } from '../../data/data'
+import ShoeProps from '../../types/Shoe'
 
 type CartItemProps = {
   id: number
@@ -14,22 +15,45 @@ type CartItemProps = {
 }
 
 const CartItem = ({ id, quantity }: CartItemProps) => {
+  const [shoe, setShoe] = useState<ShoeProps | null>(null)
   const { increaseCartQuantity, decreaseCartQuantity, removeFromCart } =
     useShoppingCart()
-  const item = AllShoes.find(item => item.shoeId === id)
 
-  if (!item) return null
+  useEffect(() => {
+    fetch('http://localhost:3000/allShoes')
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok: ' + response.statusText)
+        }
+        return response.json()
+      })
+      .then(data => {
+        const foundShoe = data.find((item: ShoeProps) => item.shoeId === id)
+        if (foundShoe) {
+          setShoe(foundShoe)
+        } else {
+          console.error(`Banner with id ${id} not found.`)
+        }
+      })
+      .catch(error => {
+        console.error('Error message: ', error)
+      })
+  }, [])
+
+  if (!shoe) return null
+
+  const { shoeURL, shoeName, shoePrice, shoeSizes } = shoe
 
   return (
     <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row items-center place-content-between space-x-4">
       <div>
-        <img className="w-48 h-48 sm:w-32 sm:h-32" src={item.shoeURL} />
+        <img className="w-48 h-48 sm:w-32 sm:h-32" src={shoeURL} />
       </div>
 
       <div className="basis-2/5 md:flex-grow">
-        <h1 className="font-bold">{item.shoeName}</h1>
-        <p className="text-sm">Tamanho: 38</p>
-        <p className="text-sm">{formatCurrency(item.shoePrice)}</p>
+        <h1 className="font-bold">{shoeName}</h1>
+        <p className="text-sm">Tamanho: {shoeSizes[0]}</p>
+        <p className="text-sm">{formatCurrency(shoePrice)}</p>
       </div>
 
       <div className="flex flex-row">
