@@ -1,0 +1,226 @@
+{
+  "nikeHomeShoes": [
+    {
+      "shoeId": 1,
+      "shoeBrandName": "Nike",
+      "shoeURL": "../src/assets/images/NikeShoes/NikePhotonDust.avif",
+      "shoeName": "Dunk",
+      "shoeColorway": "Photon Dust",
+      "shoeGenre": "Feminino",
+      "shoePrice": 899.99,
+      "shoeDiscountedPrice": 829.99,
+      "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46]
+    },
+    {
+      "shoeId": 2,
+      "shoeBrandName": "Nike",
+      "shoeURL": "../src/assets/images/NikeShoes/NikeMetallicSilver.avif",
+      "shoeName": "V2k",
+      "shoeColorway": "Metallic Silver",
+      "shoeGenre": "Feminino",
+      "shoePrice": 899.99,
+      "shoeDiscountedPrice": 799.99,
+      "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46]
+    },
+    {
+      "shoeId": 3,
+      "shoeBrandName": "Nike",
+      "shoeURL": "../src/assets/images/NikeShoes/NikeTeamRed.avif",
+      "shoeName": "Air Jordan 1 Retro High Og",
+      "shoeColorway": "Team Red",
+      "shoeGenre": "Masculino",
+      "shoePrice": 1599.99,
+      "shoeDiscountedPrice": 1499.99,
+      "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46]
+    },
+    {
+      "shoeId": 4,
+      "shoeBrandName": "Jordan",
+      "shoeURL": "../src/assets/images/NikeShoes/NikeMethodOfMake.avif",
+      "shoeName": "Air Jordan 1 Low",
+      "shoeColorway": "Method Of Make",
+      "shoeGenre": "Feminino",
+      "shoePrice": 1199.99,
+      "shoeDiscountedPrice": 999.99,
+      "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46]
+    }
+  ],
+
+  "nikeBanners": [
+    {
+      "bannerId": 1,
+      "brandName": "Nike",
+      "bannerURL": "../src/assets/images/NikeBanners/NikeBanner1.jpg",
+      "bannerALT": "Nike Banner",
+      "smallBannerURL": "../src/assets/images/NikeBanners/NikeBannerVertical1.jpg",
+      "hasButton": true,
+      "hasBannerText": false,
+      "buttonText": "Ver Ofertas"
+    },
+    {
+      "bannerId": 2,
+      "brandName": "Nike",
+      "bannerURL": "../src/assets/images/NikeBanners/NikeBanner2.avif",
+      "bannerALT": "Nike Banner",
+      "smallBannerURL": "../src/assets/images/NikeBanners/NikeBannerVertical2.avif",
+      "hasButton": true,
+      "hasBannerText": true,
+      "buttonText": "Ver Coleção",
+      "bannerText": "Desbloqueie seu potêncial máximo para as corridas",
+      "bannerCallText": "COM A TECNOLOGIA NIKE"
+    }
+  ],
+
+  "adidasBanners": [
+    {
+      "bannerId": 3,
+      "brandName": "Adidas",
+      "bannerURL": "../src/assets/images/AdidasBanners/AdidasBanner.avif",
+      "bannerALT": "Adidas Banner",
+      "smallBannerURL": "../src/assets/images/AdidasBanners/AdidasBannerVertical.jpg",
+      "hasButton": true,
+      "hasBannerText": true,
+      "buttonText": "Ver Lançamento",
+      "bannerText": "Conheça o mais novo lançamento da Adidas por Anthony Edwards",
+      "bannerCallText": "PERFEITAMENTE DESENVOLVIDO PARA AS QUADRAS"
+    }
+  ],
+
+  "adidasHomeShoes": [
+    {
+      "shoeId": 5,
+      "shoeBrandName": "Adidas",
+      "shoeURL": "../src/assets/images/AdidasShoes/AdidasAEBestOfAdi.avif",
+      "shoeName": "Anthony Edwards 1",
+      "shoeColorway": "AE Best Of Adi",
+      "shoeGenre": "Masculino",
+      "shoePrice": 1999.99,
+      "shoeDiscountedPrice": 1799.99,
+      "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46]
+    },
+    {
+      "shoeId": 6,
+      "shoeBrandName": "Adidas",
+      "shoeURL": "../src/assets/images/AdidasShoes/AdidasAdizeroPrime.avif",
+      "shoeName": "Adizero Prime",
+      "shoeColorway": "X 2.0 STRUNG",
+      "shoeGenre": "Masculino",
+      "shoePrice": 899.99,
+      "shoeDiscountedPrice": 649.99,
+      "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46]
+    },
+    {
+      "shoeId": 7,
+      "shoeBrandName": "Adidas",
+      "shoeURL": "../src/assets/images/AdidasShoes/AdidasSamba.avif",
+      "shoeName": "Samba OG",
+      "shoeColorway": "Cloud White",
+      "shoeGenre": "Feminino",
+      "shoePrice": 1299.99,
+      "shoeDiscountedPrice": 1190.99,
+      "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46]
+    },
+    {
+      "shoeId": 8,
+      "shoeBrandName": "Adidas",
+      "shoeURL": "../src/assets/images/AdidasShoes/AdidasSuperStar.avif",
+      "shoeName": "Super Star",
+      "shoeColorway": "Core Black",
+      "shoeGenre": "Masculino",
+      "shoePrice": 900.0,
+      "shoeDiscountedPrice": 750.0,
+      "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46]
+    }
+  ],
+
+  "allShoes": [
+    {
+      "shoeId": 1,
+      "shoeBrandName": "Nike",
+      "shoeURL": "../src/assets/images/NikeShoes/NikePhotonDust.avif",
+      "shoeName": "Dunk",
+      "shoeColorway": "Photon Dust",
+      "shoeGenre": "Feminino",
+      "shoePrice": 899.99,
+      "shoeDiscountedPrice": 829.99,
+      "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46]
+    },
+    {
+      "shoeId": 2,
+      "shoeBrandName": "Nike",
+      "shoeURL": "../src/assets/images/NikeShoes/NikeMetallicSilver.avif",
+      "shoeName": "V2k",
+      "shoeColorway": "Metallic Silver",
+      "shoeGenre": "Feminino",
+      "shoePrice": 899.99,
+      "shoeDiscountedPrice": 799.99,
+      "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46]
+    },
+    {
+      "shoeId": 3,
+      "shoeBrandName": "Nike",
+      "shoeURL": "../src/assets/images/NikeShoes/NikeTeamRed.avif",
+      "shoeName": "Air Jordan 1 Retro High Og",
+      "shoeColorway": "Team Red",
+      "shoeGenre": "Masculino",
+      "shoePrice": 1599.99,
+      "shoeDiscountedPrice": 1499.99,
+      "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46]
+    },
+    {
+      "shoeId": 4,
+      "shoeBrandName": "Jordan",
+      "shoeURL": "../src/assets/images/NikeShoes/NikeMethodOfMake.avif",
+      "shoeName": "Air Jordan 1 Low",
+      "shoeColorway": "Method Of Make",
+      "shoeGenre": "Feminino",
+      "shoePrice": 1199.99,
+      "shoeDiscountedPrice": 999.99,
+      "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46]
+    },
+    {
+      "shoeId": 5,
+      "shoeBrandName": "Adidas",
+      "shoeURL": "../src/assets/images/AdidasShoes/AdidasAEBestOfAdi.avif",
+      "shoeName": "Anthony Edwards 1",
+      "shoeColorway": "AE Best Of Adi",
+      "shoeGenre": "Masculino",
+      "shoePrice": 1999.99,
+      "shoeDiscountedPrice": 1799.99,
+      "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46]
+    },
+    {
+      "shoeId": 6,
+      "shoeBrandName": "Adidas",
+      "shoeURL": "../src/assets/images/AdidasShoes/AdidasAdizeroPrime.avif",
+      "shoeName": "Adizero Prime",
+      "shoeColorway": "X 2.0 STRUNG",
+      "shoeGenre": "Masculino",
+      "shoePrice": 899.99,
+      "shoeDiscountedPrice": 649.99,
+      "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46]
+    },
+    {
+      "shoeId": 7,
+      "shoeBrandName": "Adidas",
+      "shoeURL": "../src/assets/images/AdidasShoes/AdidasSamba.avif",
+      "shoeName": "Samba OG",
+      "shoeColorway": "Cloud White",
+      "shoeGenre": "Feminino",
+      "shoePrice": 1299.99,
+      "shoeDiscountedPrice": 1190.99,
+      "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46]
+    },
+    {
+      "shoeId": 8,
+      "shoeBrandName": "Adidas",
+      "shoeURL": "../src/assets/images/AdidasShoes/AdidasSuperStar.avif",
+      "shoeName": "Super Star",
+      "shoeColorway": "Core Black",
+      "shoeGenre": "Masculino",
+      "shoePrice": 900.0,
+      "shoeDiscountedPrice": 750.0,
+      "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46]
+    }
+  ]
+}
