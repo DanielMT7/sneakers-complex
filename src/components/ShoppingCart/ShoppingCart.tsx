@@ -21,8 +21,8 @@ const ShoppingCart = ({ isOpen }: ShoppingCartProps) => {
         className="fixed inset-0 bg-gray-800 bg-opacity-50 backdrop-blur-sm z-2"
       />
 
-      <div className="fixed top-0 right-0 w-full md:w-3/5 sm:w-96 lg:w-3/5 xl:w-2/5 h-full bg-slate-50 z-3 flex flex-col">
-        <div className="w-full h-48 md:h-32 flex items-center border-b border-slate-300">
+      <div className="fixed top-0 right-0 w-full md:w-3/5 sm:w-96 lg:w-3/5 xl:w-2/5 h-full bg-slate-50 z-3 flex flex-col animate-slideInRight">
+        <div className="w-full h-24 flex items-center border-b border-slate-300">
           <div className="ml-4">
             <img className="w-8 h-8" src={cart} alt="Ícone do carrinho" />
           </div>
@@ -44,8 +44,8 @@ const ShoppingCart = ({ isOpen }: ShoppingCartProps) => {
         </div>
 
         <div className="flex-grow overflow-y-auto p-4 space-y-8">
-          {cartItems.map(item => (
-            <CartItem key={item.id} {...item} />
+          {cartItems.map((item, index) => (
+            <CartItem key={index} {...item} handleCloseCart={closeCart} />
           ))}
         </div>
 
@@ -57,7 +57,10 @@ const ShoppingCart = ({ isOpen }: ShoppingCartProps) => {
           </div>
 
           <div className="h-16 p-2">
-            <button className="w-full h-full border hover:border-4 border-black">
+            <button
+              onClick={() => closeCart()}
+              className="w-full h-full border hover:border-4 border-black"
+            >
               Continuar comprando
             </button>
           </div>
