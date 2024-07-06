@@ -3,11 +3,12 @@ type ShoeProps = {
   shoeBrandName: string
   shoeURL: string
   shoeName: string
-  shoeColorwy: string
-  shoeGenre: string
+  shoeColorway: string
+  shoeGender: string
   shoePrice: number
   shoeDiscountedPrice?: number
   shoeSizes: number[]
+  shoeDescription?: string
 }
 
 export default ShoeProps
