@@ -5,6 +5,9 @@ export default {
     extend: {
       fontFamily: {
         sans: ['Poppins', 'sans-serif']
+      },
+      height: {
+        128: '32rem'
       }
     }
   },
