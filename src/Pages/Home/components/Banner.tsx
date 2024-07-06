@@ -36,8 +36,6 @@ function Banner({ searchParams }: BannerSearchProps) {
       })
   }, [])
 
-  console.log(banner)
-
   if (!banner) return null
 
   const {
