@@ -6,7 +6,7 @@
       "shoeURL": "../src/assets/images/NikeShoes/NikePhotonDust.avif",
       "shoeName": "Dunk",
       "shoeColorway": "Photon Dust",
-      "shoeGenre": "Feminino",
+      "shoeGender": "Feminino",
       "shoePrice": 899.99,
       "shoeDiscountedPrice": 829.99,
       "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46]
@@ -17,7 +17,7 @@
       "shoeURL": "../src/assets/images/NikeShoes/NikeMetallicSilver.avif",
       "shoeName": "V2k",
       "shoeColorway": "Metallic Silver",
-      "shoeGenre": "Feminino",
+      "shoeGender": "Feminino",
       "shoePrice": 899.99,
       "shoeDiscountedPrice": 799.99,
       "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46]
@@ -28,7 +28,7 @@
       "shoeURL": "../src/assets/images/NikeShoes/NikeTeamRed.avif",
       "shoeName": "Air Jordan 1 Retro High Og",
       "shoeColorway": "Team Red",
-      "shoeGenre": "Masculino",
+      "shoeGender": "Masculino",
       "shoePrice": 1599.99,
       "shoeDiscountedPrice": 1499.99,
       "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46]
@@ -39,7 +39,7 @@
       "shoeURL": "../src/assets/images/NikeShoes/NikeMethodOfMake.avif",
       "shoeName": "Air Jordan 1 Low",
       "shoeColorway": "Method Of Make",
-      "shoeGenre": "Feminino",
+      "shoeGender": "Feminino",
       "shoePrice": 1199.99,
       "shoeDiscountedPrice": 999.99,
       "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46]
@@ -93,7 +93,7 @@
       "shoeURL": "../src/assets/images/AdidasShoes/AdidasAEBestOfAdi.avif",
       "shoeName": "Anthony Edwards 1",
       "shoeColorway": "AE Best Of Adi",
-      "shoeGenre": "Masculino",
+      "shoeGender": "Masculino",
       "shoePrice": 1999.99,
       "shoeDiscountedPrice": 1799.99,
       "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46]
@@ -104,7 +104,7 @@
       "shoeURL": "../src/assets/images/AdidasShoes/AdidasAdizeroPrime.avif",
       "shoeName": "Adizero Prime",
       "shoeColorway": "X 2.0 STRUNG",
-      "shoeGenre": "Masculino",
+      "shoeGender": "Masculino",
       "shoePrice": 899.99,
       "shoeDiscountedPrice": 649.99,
       "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46]
@@ -115,7 +115,7 @@
       "shoeURL": "../src/assets/images/AdidasShoes/AdidasSamba.avif",
       "shoeName": "Samba OG",
       "shoeColorway": "Cloud White",
-      "shoeGenre": "Feminino",
+      "shoeGender": "Feminino",
       "shoePrice": 1299.99,
       "shoeDiscountedPrice": 1190.99,
       "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46]
@@ -126,7 +126,7 @@
       "shoeURL": "../src/assets/images/AdidasShoes/AdidasSuperStar.avif",
       "shoeName": "Super Star",
       "shoeColorway": "Core Black",
-      "shoeGenre": "Masculino",
+      "shoeGender": "Masculino",
       "shoePrice": 900.0,
       "shoeDiscountedPrice": 750.0,
       "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46]
@@ -140,10 +140,11 @@
       "shoeURL": "../src/assets/images/NikeShoes/NikePhotonDust.avif",
       "shoeName": "Dunk",
       "shoeColorway": "Photon Dust",
-      "shoeGenre": "Feminino",
+      "shoeGender": "Feminino",
       "shoePrice": 899.99,
       "shoeDiscountedPrice": 829.99,
-      "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46]
+      "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46],
+      "shoeDescription": "Criado para as quadras, mas levado para as ruas, o ícone do basquete dos anos 80 retorna com sobreposições perfeitamente brilhantes e cores clássicas do time. Com seu design icônico de aros, o Nike Dunk Low canaliza o vintage dos anos 80 de volta às ruas, enquanto sua gola acolchoada e decotada permite que você leve seu jogo para qualquer lugar, com conforto."
     },
     {
       "shoeId": 2,
@@ -151,10 +152,11 @@
       "shoeURL": "../src/assets/images/NikeShoes/NikeMetallicSilver.avif",
       "shoeName": "V2k",
       "shoeColorway": "Metallic Silver",
-      "shoeGenre": "Feminino",
+      "shoeGender": "Feminino",
       "shoePrice": 899.99,
       "shoeDiscountedPrice": 799.99,
-      "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46]
+      "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46],
+      "shoeDescription": "Avance rápido. Rebobine. Não importa – este calçado leva o retrô para o futuro. O V2K remasteriza tudo o que você ama no Vomero em um visual retirado diretamente de um catálogo de corrida dos primeiros anos. Combine uma mistura de metais chamativos, detalhes plásticos referenciais e uma entressola com uma estética perfeitamente vintage. E o calcanhar grosso garante conforto onde quer que você vá."
     },
     {
       "shoeId": 3,
@@ -162,10 +164,11 @@
       "shoeURL": "../src/assets/images/NikeShoes/NikeTeamRed.avif",
       "shoeName": "Air Jordan 1 Retro High Og",
       "shoeColorway": "Team Red",
-      "shoeGenre": "Masculino",
+      "shoeGender": "Masculino",
       "shoePrice": 1599.99,
       "shoeDiscountedPrice": 1499.99,
-      "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46]
+      "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46],
+      "shoeDescription": "Com a quadra como tela de MJ, seu talento artístico incomparável na quadra o consolidou como o arremessador mais habilidoso do ramo. Tudo graças ao seu gênio alucinante no ar e à capacidade incomparável de terminar cada obra-prima com talento e carisma. O brilho de MJ reflete-se nesta edição 'Artisanal Red' do AJ1 High. Esta paleta de cores básicas oferece um estilo intemporal que merece a sua própria exibição. Vá em frente, encontre sua tela e honre o legado."
     },
     {
       "shoeId": 4,
@@ -173,10 +176,11 @@
       "shoeURL": "../src/assets/images/NikeShoes/NikeMethodOfMake.avif",
       "shoeName": "Air Jordan 1 Low",
       "shoeColorway": "Method Of Make",
-      "shoeGenre": "Feminino",
+      "shoeGender": "Feminino",
       "shoePrice": 1199.99,
       "shoeDiscountedPrice": 999.99,
-      "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46]
+      "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46],
+      "shoeDescription": "A mais recente criação de luxo da série Method of Make leva o seu look além da norma. O design tonal é da mesma cor, desde a língua até os cadarços e a sola. Detalhes de costura de couro superdimensionados e detalhes metálicos super limpos adicionam um toque de textura."
     },
     {
       "shoeId": 5,
@@ -184,7 +188,7 @@
       "shoeURL": "../src/assets/images/AdidasShoes/AdidasAEBestOfAdi.avif",
       "shoeName": "Anthony Edwards 1",
       "shoeColorway": "AE Best Of Adi",
-      "shoeGenre": "Masculino",
+      "shoeGender": "Masculino",
       "shoePrice": 1999.99,
       "shoeDiscountedPrice": 1799.99,
       "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46]
@@ -195,7 +199,7 @@
       "shoeURL": "../src/assets/images/AdidasShoes/AdidasAdizeroPrime.avif",
       "shoeName": "Adizero Prime",
       "shoeColorway": "X 2.0 STRUNG",
-      "shoeGenre": "Masculino",
+      "shoeGender": "Masculino",
       "shoePrice": 899.99,
       "shoeDiscountedPrice": 649.99,
       "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46]
@@ -206,7 +210,7 @@
       "shoeURL": "../src/assets/images/AdidasShoes/AdidasSamba.avif",
       "shoeName": "Samba OG",
       "shoeColorway": "Cloud White",
-      "shoeGenre": "Feminino",
+      "shoeGender": "Feminino",
       "shoePrice": 1299.99,
       "shoeDiscountedPrice": 1190.99,
       "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46]
@@ -217,7 +221,7 @@
       "shoeURL": "../src/assets/images/AdidasShoes/AdidasSuperStar.avif",
       "shoeName": "Super Star",
       "shoeColorway": "Core Black",
-      "shoeGenre": "Masculino",
+      "shoeGender": "Masculino",
       "shoePrice": 900.0,
       "shoeDiscountedPrice": 750.0,
       "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46]
