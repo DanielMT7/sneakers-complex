@@ -1,18 +1,15 @@
-//import { useShoppingCart } from '../../../context/ShoppingCartContext'
 import { useEffect, useState } from 'react'
 
 import formatCurrency from '../../../utils/formatCurrency'
 
 import ShoeProps from '../../../types/Shoe'
+import { Link } from 'react-router-dom'
 
 type HomeShoesProp = {
   searchParam: string
 }
 
-// A parte comentada é a função que adiciona um item ao carrinho.
-
 const HomeShoes = ({ searchParam }: HomeShoesProp) => {
-  //const { increaseCartQuantity } = useShoppingCart()
   const [shoes, setShoes] = useState<ShoeProps[]>([])
 
   useEffect(() => {
@@ -37,41 +34,44 @@ const HomeShoes = ({ searchParam }: HomeShoesProp) => {
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
       {shoes.map((shoe, index) => {
         const {
-          //shoeId,
+          shoeId,
           shoeBrandName,
           shoeURL,
           shoeName,
-          shoeGenre,
+          shoeGender,
           shoePrice,
+          shoeColorway,
           shoeDiscountedPrice
         } = shoe
         return (
           <div key={index} className="flex flex-col">
-            <img
-              src={shoeURL}
-              alt={`${shoeBrandName} Shoe`}
-              className="w-full"
-            />
+            <Link to={`shoe/${shoeId}`}>
+              <img
+                src={shoeURL}
+                alt={`${shoeBrandName} Shoe`}
+                className="w-full"
+              />
+            </Link>
 
             <h1 className="text-md font-bold mt-4">
-              {shoeBrandName} - {shoeName}
+              {shoeBrandName} - {shoeName} {shoeColorway}
             </h1>
 
-            <h2 className="text-md text-gray-600">{shoeGenre}</h2>
+            <h2 className="text-md text-gray-600">{shoeGender}</h2>
 
-            <p className="text-md text-red-600 line-through">
-              {formatCurrency(shoePrice)}
-            </p>
+            {shoeDiscountedPrice ? (
+              <div>
+                <p className="text-md text-red-600 line-through">
+                  {formatCurrency(shoePrice)}
+                </p>
 
-            {shoeDiscountedPrice && (
-              <p className="text-md text-green-600">
-                {formatCurrency(shoeDiscountedPrice)}
-              </p>
+                <p className="text-md text-green-600">
+                  {formatCurrency(shoeDiscountedPrice)}
+                </p>
+              </div>
+            ) : (
+              <p className="text-md">{formatCurrency(shoePrice)}</p>
             )}
-
-            {/*<button onClick={() => increaseCartQuantity(shoeId)}>
-              add Cart
-            </button>*/}
           </div>
         )
       })}
