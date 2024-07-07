@@ -4,6 +4,7 @@ import arrowDown from '../../../assets/icons/arrowDown.svg'
 import arrowUp from '../../../assets/icons/arrowUp.svg'
 import About from './About'
 import SizeGrid from './SizeGrid'
+import { useParams } from 'react-router-dom'
 
 type MoreInfoProps = {
   shoeId: number
@@ -22,6 +23,7 @@ const MoreInfo = ({
 }: MoreInfoProps) => {
   const [isOpen, setIsOpen] = useState(false)
   const [selectedSize, setSelectedSize] = useState<number>(0)
+  const { id } = useParams<{ id: string }>()
   const ref = useRef<HTMLDivElement>(null)
 
   const handleSize = (size: number) => {
@@ -37,6 +39,10 @@ const MoreInfo = ({
       setIsOpen(false)
     }
   }
+
+  useEffect(() => {
+    setSelectedSize(0)
+  }, [id])
 
   useEffect(() => {
     document.addEventListener('mousedown', handleClickOutside)
