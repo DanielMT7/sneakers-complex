@@ -4,7 +4,7 @@
       "shoeId": 1,
       "shoeBrandName": "Nike",
       "shoeURL": "../src/assets/images/NikeShoes/NikePhotonDust.avif",
-      "shoeName": "Dunk",
+      "shoeName": "Dunk Low",
       "shoeColorway": "Photon Dust",
       "shoeGender": "Feminino",
       "shoePrice": 899.99,
@@ -35,7 +35,7 @@
     },
     {
       "shoeId": 4,
-      "shoeBrandName": "Jordan",
+      "shoeBrandName": "Nike",
       "shoeURL": "../src/assets/images/NikeShoes/NikeMethodOfMake.avif",
       "shoeName": "Air Jordan 1 Low",
       "shoeColorway": "Method Of Make",
@@ -138,7 +138,7 @@
       "shoeId": 1,
       "shoeBrandName": "Nike",
       "shoeURL": "../src/assets/images/NikeShoes/NikePhotonDust.avif",
-      "shoeName": "Dunk",
+      "shoeName": "Dunk Low",
       "shoeColorway": "Photon Dust",
       "shoeGender": "Feminino",
       "shoePrice": 899.99,
@@ -172,7 +172,7 @@
     },
     {
       "shoeId": 4,
-      "shoeBrandName": "Jordan",
+      "shoeBrandName": "Nike",
       "shoeURL": "../src/assets/images/NikeShoes/NikeMethodOfMake.avif",
       "shoeName": "Air Jordan 1 Low",
       "shoeColorway": "Method Of Make",
@@ -225,6 +225,61 @@
       "shoePrice": 900.0,
       "shoeDiscountedPrice": 750.0,
       "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46]
+    },
+    {
+      "shoeId": 9,
+      "shoeBrandName": "Nike",
+      "shoeURL": "../src/assets/images/NikeShoes/NikeMichiganState.avif",
+      "shoeName": "Dunk Low",
+      "shoeColorway": "Michigan State",
+      "shoeGender": "Masculino",
+      "shoePrice": 899.99,
+      "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46],
+      "shoeDescription": "Introduzido há mais de três décadas, o Dunk Low começou seu reinado no basquete universitário. Desde então, tornou-se um ícone de expressão em quase todos os cantos da cultura popular, do skate à arte moderna. Neste verão, o ícone retorna em um clássico cult “Varsity Green” que remete às suas origens “Be True To Your School”."
+    },
+    {
+      "shoeId": 10,
+      "shoeBrandName": "Nike",
+      "shoeURL": "../src/assets/images/NikeShoes/NikeGreyFog.avif",
+      "shoeName": "Dunk Low",
+      "shoeColorway": "Grey Fog",
+      "shoeGender": "Masculino",
+      "shoePrice": 899.99,
+      "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46],
+      "shoeDescription": "Criado para as quadras, mas levado para as ruas, o Nike Dunk Low Retro retorna com sobreposições nítidas e cores originais do time. Este ícone do basquete canaliza as vibrações dos anos 80 com couro premium na parte superior que fica ainda melhor. A tecnologia moderna de calçados ajuda a trazer conforto para o século XXI."
+    },
+    {
+      "shoeId": 11,
+      "shoeBrandName": "Nike",
+      "shoeURL": "../src/assets/images/NikeShoes/NikeFootballGreyGum.avif",
+      "shoeName": "Dunk Low",
+      "shoeColorway": "Football Grey Gum",
+      "shoeGender": "Masculino",
+      "shoePrice": 999.99,
+      "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46],
+      "shoeDescription": "O ícone do basquete dos anos 80 retorna com um toque retrô e materiais premium. Uma mistura de couro liso e rachado dá ao seu Dunk uma sensação de frescor. Além disso, sua gola acolchoada permite que você leve seu jogo para qualquer lugar com conforto."
+    },
+    {
+      "shoeId": 12,
+      "shoeBrandName": "Nike",
+      "shoeURL": "../src/assets/images/NikeShoes/NikePacificMoss.avif",
+      "shoeName": "Dunk Low",
+      "shoeColorway": "Pacific Moss",
+      "shoeGender": "Masculino",
+      "shoePrice": 999.99,
+      "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46],
+      "shoeDescription": "Reconhecendo as raízes do Dunk como o tênis da equipe universitária de alto escalão, o pacote “Be True To Your School” busca inspiração na campanha publicitária original. As cores representam universidades de alto nível, enquanto o couro nítido tem a quantidade perfeita de brilho para torná-los uma vitória fácil. Então, calce-o e mostre esse espírito do time universitário. O seu jogo?"
+    },
+    {
+      "shoeId": 13,
+      "shoeBrandName": "Nike",
+      "shoeURL": "../src/assets/images/NikeShoes/NikeVarsityRedAndSilver.avif",
+      "shoeName": "Dunk Low",
+      "shoeColorway": "Varsity Red and Silver",
+      "shoeGender": "Masculino",
+      "shoePrice": 999.99,
+      "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46],
+      "shoeDescription": "Introduzido há mais de 3 décadas, o Dunk Low começou seu reinado nas quadras de basquete universitário. Desde então, tornou-se um ícone de espressão em quase toda fenda de cultura popular, desde o skate até a arte moderna. Fazendo menção a um sortimento de clássicos favoritos, os Dunks exclusivos do Japão Co.Jp (Também conhecido como Concept Japan), a silhueta retorna agora em uma colorway familiar, Varsit Red and Silver."
     }
   ]
 }
