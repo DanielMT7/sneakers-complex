@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import ShoeProps from '../../types/Shoe'
 import MoreInfo from './components/MoreInfo'
+import Caroussel from '../../components/Caroussel/Caroussel'
 
 const Shoe = () => {
   const [shoe, setShoe] = useState<ShoeProps | null>(null)
@@ -94,7 +95,13 @@ const Shoe = () => {
         </div>
       </div>
 
-      <div className="h-24">related products</div>
+      <Caroussel
+        customSearchParams={{
+          shoeId: shoeId,
+          shoeName: shoeName,
+          shoeBrandName: shoeBrandName
+        }}
+      />
     </div>
   )
 }
