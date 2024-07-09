@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { IMAGE_BASE_URL } from '../../../config/config'
 
 import BannerProps from '../../../types/Banner'
 
@@ -51,8 +52,16 @@ function Banner({ searchParams }: BannerSearchProps) {
 
   return (
     <div className="space-y-6">
-      <img className="hidden sm:block" src={bannerURL} alt={bannerALT} />
-      <img className="sm:hidden" src={smallBannerURL} alt={bannerALT} />
+      <img
+        className="hidden sm:block"
+        src={`${IMAGE_BASE_URL}${bannerURL}`}
+        alt={bannerALT}
+      />
+      <img
+        className="sm:hidden"
+        src={`${IMAGE_BASE_URL}${smallBannerURL}`}
+        alt={bannerALT}
+      />
 
       {hasBannerText && (
         <div>

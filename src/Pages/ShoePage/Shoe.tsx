@@ -1,8 +1,11 @@
 import { useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
-import ShoeProps from '../../types/Shoe'
+import { IMAGE_BASE_URL } from '../../config/config'
+
 import MoreInfo from './components/MoreInfo'
 import Caroussel from '../../components/Caroussel/Caroussel'
+
+import ShoeProps from '../../types/Shoe'
 
 const Shoe = () => {
   const [shoe, setShoe] = useState<ShoeProps | null>(null)
@@ -81,7 +84,11 @@ const Shoe = () => {
 
       <div className="space-y-4 sm:space-x-2 lg:space-x-4 sm:space-y-0 lg:h-128 sm:px-8 flex flex-col sm:flex-row mt-4 lg:mt-0">
         <div className="sm:w-1/2 h-full">
-          <img className="w-full h-full object-contain" src={shoeURL} alt="" />
+          <img
+            className="w-full h-full object-contain"
+            src={`${IMAGE_BASE_URL}${shoeURL}`}
+            alt=""
+          />
         </div>
 
         <div className="h-96 lg:h-128 sm:w-1/2 sm:h-full lg:p-1">

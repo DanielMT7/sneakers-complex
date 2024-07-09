@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react'
 import { useShoppingCart } from '../../context/ShoppingCartContext'
 import { Link } from 'react-router-dom'
 
+import { IMAGE_BASE_URL } from '../../config/config'
+
 import formatCurrency from '../../utils/formatCurrency'
 
 import deleteIcon from './../../assets/icons/delete.svg'
@@ -58,7 +60,10 @@ const CartItem = ({ id, quantity, size, handleCloseCart }: CartItemProps) => {
     <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row items-center place-content-between space-x-4">
       <div>
         <Link to={`shoe/${shoeId}`} onClick={handleCloseCart}>
-          <img className="w-48 h-48 sm:w-32 sm:h-32" src={shoeURL} />
+          <img
+            className="w-48 h-48 sm:w-32 sm:h-32"
+            src={`${IMAGE_BASE_URL}${shoeURL}`}
+          />
         </Link>
       </div>
 

@@ -1,6 +1,8 @@
-import ShoeProps from '../../types/Shoe'
+import { IMAGE_BASE_URL } from '../../config/config'
 import formatCurrency from '../../utils/formatCurrency'
 import { useNavigate } from 'react-router-dom'
+
+import ShoeProps from '../../types/Shoe'
 
 type CarrouselItem = {
   shoe: ShoeProps
@@ -29,7 +31,7 @@ const CarousselItem = ({ shoe }: CarrouselItem) => {
       <img
         className="cursor-pointer"
         onClick={handleNavigation}
-        src={shoeURL}
+        src={`${IMAGE_BASE_URL}${shoeURL}`}
         alt=""
       />
       <div>

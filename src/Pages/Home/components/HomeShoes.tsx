@@ -1,9 +1,10 @@
 import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
+import { IMAGE_BASE_URL } from '../../../config/config'
 
 import formatCurrency from '../../../utils/formatCurrency'
 
 import ShoeProps from '../../../types/Shoe'
-import { Link } from 'react-router-dom'
 
 type HomeShoesProp = {
   searchParam: string
@@ -47,7 +48,7 @@ const HomeShoes = ({ searchParam }: HomeShoesProp) => {
           <div key={index} className="flex flex-col">
             <Link to={`shoe/${shoeId}`}>
               <img
-                src={shoeURL}
+                src={`${IMAGE_BASE_URL}${shoeURL}`}
                 alt={`${shoeBrandName} Shoe`}
                 className="w-full"
               />
