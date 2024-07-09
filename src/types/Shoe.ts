@@ -5,6 +5,7 @@ type ShoeProps = {
   shoeName: string
   shoeColorway: string
   shoeGender: string
+  shoeCategory?: string
   shoePrice: number
   shoeDiscountedPrice?: number
   shoeSizes: number[]
