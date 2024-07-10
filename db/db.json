@@ -3,7 +3,7 @@
     {
       "shoeId": 1,
       "shoeBrandName": "Nike",
-      "shoeURL": "../src/assets/images/NikeShoes/NikePhotonDust.avif",
+      "shoeURL": "NikeShoes/NikePhotonDust.avif",
       "shoeName": "Dunk Low",
       "shoeColorway": "Photon Dust",
       "shoeGender": "Feminino",
@@ -14,7 +14,7 @@
     {
       "shoeId": 2,
       "shoeBrandName": "Nike",
-      "shoeURL": "../src/assets/images/NikeShoes/NikeMetallicSilver.avif",
+      "shoeURL": "NikeShoes/NikeMetallicSilver.avif",
       "shoeName": "V2k",
       "shoeColorway": "Metallic Silver",
       "shoeGender": "Feminino",
@@ -25,7 +25,7 @@
     {
       "shoeId": 3,
       "shoeBrandName": "Nike",
-      "shoeURL": "../src/assets/images/NikeShoes/NikeTeamRed.avif",
+      "shoeURL": "NikeShoes/NikeTeamRed.avif",
       "shoeName": "Air Jordan 1 Retro High Og",
       "shoeColorway": "Team Red",
       "shoeGender": "Masculino",
@@ -36,7 +36,7 @@
     {
       "shoeId": 4,
       "shoeBrandName": "Nike",
-      "shoeURL": "../src/assets/images/NikeShoes/NikeMethodOfMake.avif",
+      "shoeURL": "NikeShoes/NikeMethodOfMake.avif",
       "shoeName": "Air Jordan 1 Low",
       "shoeColorway": "Method Of Make",
       "shoeGender": "Feminino",
@@ -50,9 +50,9 @@
     {
       "bannerId": 1,
       "brandName": "Nike",
-      "bannerURL": "../src/assets/images/NikeBanners/NikeBanner1.jpg",
+      "bannerURL": "NikeBanners/NikeBanner1.jpg",
       "bannerALT": "Nike Banner",
-      "smallBannerURL": "../src/assets/images/NikeBanners/NikeBannerVertical1.jpg",
+      "smallBannerURL": "NikeBanners/NikeBannerVertical1.jpg",
       "hasButton": true,
       "hasBannerText": false,
       "buttonText": "Ver Ofertas"
@@ -60,9 +60,9 @@
     {
       "bannerId": 2,
       "brandName": "Nike",
-      "bannerURL": "../src/assets/images/NikeBanners/NikeBanner2.avif",
+      "bannerURL": "NikeBanners/NikeBanner2.avif",
       "bannerALT": "Nike Banner",
-      "smallBannerURL": "../src/assets/images/NikeBanners/NikeBannerVertical2.avif",
+      "smallBannerURL": "NikeBanners/NikeBannerVertical2.avif",
       "hasButton": true,
       "hasBannerText": true,
       "buttonText": "Ver Coleção",
@@ -75,9 +75,9 @@
     {
       "bannerId": 3,
       "brandName": "Adidas",
-      "bannerURL": "../src/assets/images/AdidasBanners/AdidasBanner.avif",
+      "bannerURL": "AdidasBanners/AdidasBanner.avif",
       "bannerALT": "Adidas Banner",
-      "smallBannerURL": "../src/assets/images/AdidasBanners/AdidasBannerVertical.jpg",
+      "smallBannerURL": "AdidasBanners/AdidasBannerVertical.jpg",
       "hasButton": true,
       "hasBannerText": true,
       "buttonText": "Ver Lançamento",
@@ -90,7 +90,7 @@
     {
       "shoeId": 5,
       "shoeBrandName": "Adidas",
-      "shoeURL": "../src/assets/images/AdidasShoes/AdidasAEBestOfAdi.avif",
+      "shoeURL": "AdidasShoes/AdidasAEBestOfAdi.avif",
       "shoeName": "Anthony Edwards 1",
       "shoeColorway": "AE Best Of Adi",
       "shoeGender": "Masculino",
@@ -101,7 +101,7 @@
     {
       "shoeId": 6,
       "shoeBrandName": "Adidas",
-      "shoeURL": "../src/assets/images/AdidasShoes/AdidasAdizeroPrime.avif",
+      "shoeURL": "AdidasShoes/AdidasAdizeroPrime.avif",
       "shoeName": "Adizero Prime",
       "shoeColorway": "X 2.0 STRUNG",
       "shoeGender": "Masculino",
@@ -112,7 +112,7 @@
     {
       "shoeId": 7,
       "shoeBrandName": "Adidas",
-      "shoeURL": "../src/assets/images/AdidasShoes/AdidasSamba.avif",
+      "shoeURL": "AdidasShoes/AdidasSamba.avif",
       "shoeName": "Samba OG",
       "shoeColorway": "Cloud White",
       "shoeGender": "Feminino",
@@ -123,7 +123,7 @@
     {
       "shoeId": 8,
       "shoeBrandName": "Adidas",
-      "shoeURL": "../src/assets/images/AdidasShoes/AdidasSuperStar.avif",
+      "shoeURL": "AdidasShoes/AdidasSuperStar.avif",
       "shoeName": "Super Star",
       "shoeColorway": "Core Black",
       "shoeGender": "Masculino",
@@ -137,10 +137,11 @@
     {
       "shoeId": 1,
       "shoeBrandName": "Nike",
-      "shoeURL": "../src/assets/images/NikeShoes/NikePhotonDust.avif",
+      "shoeURL": "NikeShoes/NikePhotonDust.avif",
       "shoeName": "Dunk Low",
       "shoeColorway": "Photon Dust",
-      "shoeGender": "Feminino",
+      "shoeGender": "Unissex",
+      "shoeCategory": "Casual",
       "shoePrice": 899.99,
       "shoeDiscountedPrice": 829.99,
       "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46],
@@ -149,10 +150,11 @@
     {
       "shoeId": 2,
       "shoeBrandName": "Nike",
-      "shoeURL": "../src/assets/images/NikeShoes/NikeMetallicSilver.avif",
+      "shoeURL": "NikeShoes/NikeMetallicSilver.avif",
       "shoeName": "V2k",
       "shoeColorway": "Metallic Silver",
       "shoeGender": "Feminino",
+      "shoeCategory": "Corrida",
       "shoePrice": 899.99,
       "shoeDiscountedPrice": 799.99,
       "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46],
@@ -161,10 +163,11 @@
     {
       "shoeId": 3,
       "shoeBrandName": "Nike",
-      "shoeURL": "../src/assets/images/NikeShoes/NikeTeamRed.avif",
-      "shoeName": "Air Jordan 1 Retro High Og",
+      "shoeURL": "NikeShoes/NikeTeamRed.avif",
+      "shoeName": "Air Jordan 1 Retro High OG",
       "shoeColorway": "Team Red",
       "shoeGender": "Masculino",
+      "shoeCategory": "Casual",
       "shoePrice": 1599.99,
       "shoeDiscountedPrice": 1499.99,
       "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46],
@@ -173,10 +176,11 @@
     {
       "shoeId": 4,
       "shoeBrandName": "Nike",
-      "shoeURL": "../src/assets/images/NikeShoes/NikeMethodOfMake.avif",
+      "shoeURL": "NikeShoes/NikeMethodOfMake.avif",
       "shoeName": "Air Jordan 1 Low",
       "shoeColorway": "Method Of Make",
       "shoeGender": "Feminino",
+      "shoeCategory": "Casual",
       "shoePrice": 1199.99,
       "shoeDiscountedPrice": 999.99,
       "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46],
@@ -185,10 +189,11 @@
     {
       "shoeId": 5,
       "shoeBrandName": "Adidas",
-      "shoeURL": "../src/assets/images/AdidasShoes/AdidasAEBestOfAdi.avif",
+      "shoeURL": "AdidasShoes/AdidasAEBestOfAdi.avif",
       "shoeName": "Anthony Edwards 1",
       "shoeColorway": "AE Best Of Adi",
       "shoeGender": "Masculino",
+      "shoeCategory": "Basquete",
       "shoePrice": 1999.99,
       "shoeDiscountedPrice": 1799.99,
       "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46]
@@ -196,10 +201,11 @@
     {
       "shoeId": 6,
       "shoeBrandName": "Adidas",
-      "shoeURL": "../src/assets/images/AdidasShoes/AdidasAdizeroPrime.avif",
+      "shoeURL": "AdidasShoes/AdidasAdizeroPrime.avif",
       "shoeName": "Adizero Prime",
       "shoeColorway": "X 2.0 STRUNG",
       "shoeGender": "Masculino",
+      "shoeCategory": "Corrida",
       "shoePrice": 899.99,
       "shoeDiscountedPrice": 649.99,
       "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46]
@@ -207,10 +213,11 @@
     {
       "shoeId": 7,
       "shoeBrandName": "Adidas",
-      "shoeURL": "../src/assets/images/AdidasShoes/AdidasSamba.avif",
+      "shoeURL": "AdidasShoes/AdidasSamba.avif",
       "shoeName": "Samba OG",
       "shoeColorway": "Cloud White",
       "shoeGender": "Feminino",
+      "shoeCategory": "Casual",
       "shoePrice": 1299.99,
       "shoeDiscountedPrice": 1190.99,
       "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46]
@@ -218,10 +225,11 @@
     {
       "shoeId": 8,
       "shoeBrandName": "Adidas",
-      "shoeURL": "../src/assets/images/AdidasShoes/AdidasSuperStar.avif",
+      "shoeURL": "AdidasShoes/AdidasSuperStar.avif",
       "shoeName": "Super Star",
       "shoeColorway": "Core Black",
-      "shoeGender": "Masculino",
+      "shoeGender": "Unissex",
+      "shoeCategory": "Casual",
       "shoePrice": 900.0,
       "shoeDiscountedPrice": 750.0,
       "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46]
@@ -229,10 +237,11 @@
     {
       "shoeId": 9,
       "shoeBrandName": "Nike",
-      "shoeURL": "../src/assets/images/NikeShoes/NikeMichiganState.avif",
+      "shoeURL": "NikeShoes/NikeMichiganState.avif",
       "shoeName": "Dunk Low",
       "shoeColorway": "Michigan State",
-      "shoeGender": "Masculino",
+      "shoeGender": "Unissex",
+      "shoeCategory": "Casual",
       "shoePrice": 899.99,
       "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46],
       "shoeDescription": "Introduzido há mais de três décadas, o Dunk Low começou seu reinado no basquete universitário. Desde então, tornou-se um ícone de expressão em quase todos os cantos da cultura popular, do skate à arte moderna. Neste verão, o ícone retorna em um clássico cult “Varsity Green” que remete às suas origens “Be True To Your School”."
@@ -240,10 +249,11 @@
     {
       "shoeId": 10,
       "shoeBrandName": "Nike",
-      "shoeURL": "../src/assets/images/NikeShoes/NikeGreyFog.avif",
+      "shoeURL": "NikeShoes/NikeGreyFog.avif",
       "shoeName": "Dunk Low",
       "shoeColorway": "Grey Fog",
-      "shoeGender": "Masculino",
+      "shoeGender": "Unissex",
+      "shoeCategory": "Casual",
       "shoePrice": 899.99,
       "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46],
       "shoeDescription": "Criado para as quadras, mas levado para as ruas, o Nike Dunk Low Retro retorna com sobreposições nítidas e cores originais do time. Este ícone do basquete canaliza as vibrações dos anos 80 com couro premium na parte superior que fica ainda melhor. A tecnologia moderna de calçados ajuda a trazer conforto para o século XXI."
@@ -251,10 +261,11 @@
     {
       "shoeId": 11,
       "shoeBrandName": "Nike",
-      "shoeURL": "../src/assets/images/NikeShoes/NikeFootballGreyGum.avif",
+      "shoeURL": "NikeShoes/NikeFootballGreyGum.avif",
       "shoeName": "Dunk Low",
       "shoeColorway": "Football Grey Gum",
-      "shoeGender": "Masculino",
+      "shoeGender": "Feminino",
+      "shoeCategory": "Casual",
       "shoePrice": 999.99,
       "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46],
       "shoeDescription": "O ícone do basquete dos anos 80 retorna com um toque retrô e materiais premium. Uma mistura de couro liso e rachado dá ao seu Dunk uma sensação de frescor. Além disso, sua gola acolchoada permite que você leve seu jogo para qualquer lugar com conforto."
@@ -262,10 +273,11 @@
     {
       "shoeId": 12,
       "shoeBrandName": "Nike",
-      "shoeURL": "../src/assets/images/NikeShoes/NikePacificMoss.avif",
+      "shoeURL": "NikeShoes/NikePacificMoss.avif",
       "shoeName": "Dunk Low",
       "shoeColorway": "Pacific Moss",
-      "shoeGender": "Masculino",
+      "shoeGender": "Unissex",
+      "shoeCategory": "Casual",
       "shoePrice": 999.99,
       "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46],
       "shoeDescription": "Reconhecendo as raízes do Dunk como o tênis da equipe universitária de alto escalão, o pacote “Be True To Your School” busca inspiração na campanha publicitária original. As cores representam universidades de alto nível, enquanto o couro nítido tem a quantidade perfeita de brilho para torná-los uma vitória fácil. Então, calce-o e mostre esse espírito do time universitário. O seu jogo?"
@@ -273,10 +285,11 @@
     {
       "shoeId": 13,
       "shoeBrandName": "Nike",
-      "shoeURL": "../src/assets/images/NikeShoes/NikeVarsityRedAndSilver.avif",
+      "shoeURL": "NikeShoes/NikeVarsityRedAndSilver.avif",
       "shoeName": "Dunk Low",
       "shoeColorway": "Varsity Red and Silver",
-      "shoeGender": "Masculino",
+      "shoeGender": "Unissex",
+      "shoeCategory": "Casual",
       "shoePrice": 999.99,
       "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46],
       "shoeDescription": "Introduzido há mais de 3 décadas, o Dunk Low começou seu reinado nas quadras de basquete universitário. Desde então, tornou-se um ícone de espressão em quase toda fenda de cultura popular, desde o skate até a arte moderna. Fazendo menção a um sortimento de clássicos favoritos, os Dunks exclusivos do Japão Co.Jp (Também conhecido como Concept Japan), a silhueta retorna agora em uma colorway familiar, Varsit Red and Silver."
