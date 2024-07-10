@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 const Navbar = () => {
   const { openCart, cartQuantity } = useShoppingCart()
   return (
-    <div className="w-full h-24 bg-neutral-50 fixed flex items-center place-content-evenly">
+    <div className="w-full h-24 bg-neutral-50 fixed flex items-center place-content-evenly z-10">
       <div>
         <Link to="/">
           <img src={Logo} alt="Logo" className="w-12 h-12 md:w-16 md:h-16" />

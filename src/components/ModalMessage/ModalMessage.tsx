@@ -27,8 +27,8 @@ const ModalMessage = ({ isOpen, onClose, message }: ModalMessageProps) => {
 
   return isOpen ? (
     <div onClick={onClose}>
-      <div className="fixed inset-0 w-full h-full bg-gray-600 bg-opacity-30 backdrop-blur-sm z-2 flex justify-center items-center">
-        <div className="top-0 right-0 w-56 h-56 sm:w-96 sm:h-96 bg-slate-50 z-3 flex flex-col justify-center items-center space-y-8 rounded-lg ">
+      <div className="fixed inset-0 w-full h-full bg-gray-600 bg-opacity-30 backdrop-blur-sm z-30 flex justify-center items-center">
+        <div className="top-0 right-0 w-56 h-56 sm:w-96 sm:h-96 bg-slate-50 z-40 flex flex-col justify-center items-center space-y-8 rounded-lg ">
           <div className="p-1 rounded-full border border-black">
             <img className="w-12 h-12 sm:w-24 sm:h-24" src={close} alt="" />
           </div>

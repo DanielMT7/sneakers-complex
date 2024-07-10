@@ -18,10 +18,10 @@ const ShoppingCart = ({ isOpen }: ShoppingCartProps) => {
     <div>
       <div
         onClick={() => closeCart()}
-        className="fixed inset-0 bg-gray-800 bg-opacity-50 backdrop-blur-sm z-2"
+        className="fixed inset-0 bg-gray-800 bg-opacity-50 backdrop-blur-sm z-20"
       />
 
-      <div className="fixed top-0 right-0 w-full md:w-3/5 sm:w-96 lg:w-3/5 xl:w-2/5 h-full bg-slate-50 z-3 flex flex-col animate-slideInRight">
+      <div className="fixed top-0 right-0 w-full md:w-3/5 sm:w-96 lg:w-3/5 xl:w-2/5 h-full bg-slate-50 z-20 flex flex-col animate-slideInRight">
         <div className="w-full h-24 flex items-center border-b border-slate-300">
           <div className="ml-4">
             <img className="w-8 h-8" src={cart} alt="Ícone do carrinho" />
