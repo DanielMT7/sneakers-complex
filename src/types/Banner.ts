@@ -8,6 +8,7 @@ type BannerProps = {
   bannerCallText?: string
   hasButton?: boolean
   buttonText?: string
+  bannerButtonUrl?: string
 }
 
 export default BannerProps
