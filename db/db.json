@@ -55,7 +55,8 @@
       "smallBannerURL": "NikeBanners/NikeBannerVertical1.jpg",
       "hasButton": true,
       "hasBannerText": false,
-      "buttonText": "Ver Ofertas"
+      "buttonText": "Ver Ofertas",
+      "bannerButtonUrl": "/offer/brand/nike"
     },
     {
       "bannerId": 2,
@@ -67,7 +68,8 @@
       "hasBannerText": true,
       "buttonText": "Ver Coleção",
       "bannerText": "Desbloqueie seu potêncial máximo para as corridas",
-      "bannerCallText": "COM A TECNOLOGIA NIKE"
+      "bannerCallText": "COM A TECNOLOGIA NIKE",
+      "bannerButtonUrl": "/offer/brand/nike/category/corrida"
     }
   ],
 
@@ -82,7 +84,8 @@
       "hasBannerText": true,
       "buttonText": "Ver Lançamento",
       "bannerText": "Conheça o mais novo lançamento da Adidas por Anthony Edwards",
-      "bannerCallText": "PERFEITAMENTE DESENVOLVIDO PARA AS QUADRAS"
+      "bannerCallText": "PERFEITAMENTE DESENVOLVIDO PARA AS QUADRAS",
+      "bannerButtonUrl": "/offer/brand/adidas"
     }
   ],
 
