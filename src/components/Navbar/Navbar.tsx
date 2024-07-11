@@ -1,12 +1,29 @@
-// Icons
+import { useShoppingCart } from '../../context/ShoppingCartContext'
+import { Link, useNavigate } from 'react-router-dom'
+
+import NavbarItem from '../NavbarItem/NavbarItem'
+
 import Logo from '../../assets/icons/sneaker.svg'
 import Bag from '../../assets/icons/bag.svg'
 import Burguer from '../../assets/icons/burguer.svg'
-import { useShoppingCart } from '../../context/ShoppingCartContext'
-import { Link } from 'react-router-dom'
+
+import { NavbarBrandOptions, menuOptions } from '../../data/consts'
+import SidebarMenu from '../SideBarMenu/SideBarMenu'
+import { useState } from 'react'
 
 const Navbar = () => {
+  const navigate = useNavigate()
   const { openCart, cartQuantity } = useShoppingCart()
+  const [isOpen, setIsOpen] = useState(false)
+
+  const handleNavigation = (url: string) => {
+    navigate(url)
+  }
+
+  const handleShowModal = () => {
+    setIsOpen(prevIsOpen => !prevIsOpen)
+  }
+
   return (
     <div className="w-full h-24 bg-neutral-50 fixed flex items-center place-content-evenly z-10">
       <div>
@@ -21,12 +38,27 @@ const Navbar = () => {
         </Link>
       </div>
 
-      <nav className="hidden md:block">
+      <nav className="hidden lg:block">
         <ul className="space-x-6 flex">
-          <li>Promoção</li>
-          <li>Lançamentos</li>
-          <li>Ofertas</li>
-          <li>Marcas</li>
+          <li>
+            <button onClick={() => handleNavigation('/offer')}>Promoção</button>
+          </li>
+          <li>
+            <button onClick={() => handleNavigation('/offer')}>Ofertas</button>
+          </li>
+          <li>
+            <button onClick={() => handleNavigation('/offer/gender/masculino')}>
+              Masculino
+            </button>
+          </li>
+          <li>
+            <button onClick={() => handleNavigation('/offer/gender/feminino')}>
+              Feminino
+            </button>
+          </li>
+          <li>
+            <NavbarItem label="Marcas" options={NavbarBrandOptions} />
+          </li>
         </ul>
       </nav>
 
@@ -43,8 +75,16 @@ const Navbar = () => {
           )}
         </div>
 
-        <div className="p-2 hover:rounded-full hover:bg-slate-200 md:hidden cursor-pointer">
-          <img src={Burguer} alt="" className="w-6 w-6 md:w-8 md:h-8" />
+        <div className="p-2 hover:rounded-full hover:bg-slate-200 lg:hidden cursor-pointer">
+          <img
+            onClick={handleShowModal}
+            src={Burguer}
+            alt=""
+            className="w-6 w-6 md:w-8 md:h-8"
+          />
+          {isOpen && (
+            <SidebarMenu options={menuOptions} onClose={handleShowModal} />
+          )}
         </div>
       </div>
     </div>
