@@ -71,17 +71,19 @@ const Caroussel = ({ customSearchParams }: CarousselProps) => {
     <div className="mt-4 space-y-4 border-y py-4">
       <h1 className="text-lg sm:text-xl font-bold">Sneakers Relacionados</h1>
       <div className="flex items-center space-x-2">
-        <button
-          ref={buttonRef}
-          className="hidden bg-black rounded-full p-2 w-8 h-8 text-white text-3xl sm:flex items-center justify-center"
-          onClick={() => scrollCarousel(-(carouselWidth + buttonWidth))} // Size do botao + size da imagem
-        >
-          <img
-            src={arrow}
-            className="transform scale-x-[-1]"
-            alt="Seta para esquerda"
-          />
-        </button>
+        {relatedShoes.length < 4 ? null : (
+          <button
+            ref={buttonRef}
+            className="hidden bg-black rounded-full p-2 w-8 h-8 text-white text-3xl sm:flex items-center justify-center"
+            onClick={() => scrollCarousel(-(carouselWidth + buttonWidth))} // Size do botao + size da imagem
+          >
+            <img
+              src={arrow}
+              className="transform scale-x-[-1]"
+              alt="Seta para esquerda"
+            />
+          </button>
+        )}
         <div
           className="flex overflow-x-auto scroll-smooth gap-8 w-full"
           ref={carouselRef}
@@ -91,12 +93,14 @@ const Caroussel = ({ customSearchParams }: CarousselProps) => {
           ))}
         </div>
 
-        <button
-          className="hidden bg-black rounded-full p-2 w-8 h-8 text-white text-3xl sm:flex items-center justify-center"
-          onClick={() => scrollCarousel(carouselWidth + buttonWidth)} // Ajuste o valor de acordo com o tamanho do item do carrossel
-        >
-          <img src={arrow} alt="Seta para direita" />
-        </button>
+        {relatedShoes.length < 4 ? null : (
+          <button
+            className="hidden bg-black rounded-full p-2 w-8 h-8 text-white text-3xl sm:flex items-center justify-center"
+            onClick={() => scrollCarousel(carouselWidth + buttonWidth)} // Ajuste o valor de acordo com o tamanho do item do carrossel
+          >
+            <img src={arrow} alt="Seta para direita" />
+          </button>
+        )}
       </div>
     </div>
   )
