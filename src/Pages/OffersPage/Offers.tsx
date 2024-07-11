@@ -11,6 +11,7 @@ import OfferRouteInfo from './components/OfferRouteInfo'
 import Dropdown from '../../components/Dropdown/Dropdown'
 
 import ShoeProps from '../../types/Shoe'
+import useWindowSize from '../../hooks/useWindowSize'
 
 const options = ['Lançamento', 'Menor preço', 'Maior preço']
 
@@ -19,7 +20,10 @@ const Offers = () => {
   const [shoes, setShoes] = useState<ShoeProps[]>([])
   const [selectedOption, setSelectedOption] = useState<string>(options[0])
   const [selectedFilters, setSelectedFilters] = useState<string[]>([])
-  const [isFiltersOpen, setIsFiltersOpen] = useState(true)
+  const window = useWindowSize()
+  const [isFiltersOpen, setIsFiltersOpen] = useState(
+    window.width > 640 ? true : false
+  )
 
   const filteredShoes = useFilteredShoes(shoes, selectedFilters)
   const sortedShoes = useSortedShoes(filteredShoes, selectedOption, options)
