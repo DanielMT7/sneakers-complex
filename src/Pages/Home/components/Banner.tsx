@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import { IMAGE_BASE_URL } from '../../../config/config'
 
 import BannerProps from '../../../types/Banner'
@@ -13,6 +14,7 @@ type BannerSearchProps = {
 function Banner({ searchParams }: BannerSearchProps) {
   const { searchParam, searchId } = searchParams
   const [banner, setBanner] = useState<BannerProps | null>(null)
+  const navigate = useNavigate()
 
   useEffect(() => {
     fetch(`http://localhost:3000/${searchParam}`)
@@ -37,6 +39,11 @@ function Banner({ searchParams }: BannerSearchProps) {
       })
   }, [])
 
+  const handleNavigate = (url: string) => {
+    navigate(url)
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+
   if (!banner) return null
 
   const {
@@ -47,7 +54,8 @@ function Banner({ searchParams }: BannerSearchProps) {
     buttonText,
     hasBannerText,
     bannerText,
-    bannerCallText
+    bannerCallText,
+    bannerButtonUrl
   } = banner
 
   return (
@@ -74,9 +82,12 @@ function Banner({ searchParams }: BannerSearchProps) {
         </div>
       )}
 
-      {hasButton && (
+      {hasButton && bannerButtonUrl && (
         <div className="flex justify-center">
-          <button className="text-sm font-bold text-slate-50 p-4 bg-slate-950 rounded-full">
+          <button
+            onClick={() => handleNavigate(bannerButtonUrl)}
+            className="text-sm font-bold text-slate-50 p-4 bg-slate-950 rounded-full"
+          >
             {buttonText}
           </button>
         </div>
