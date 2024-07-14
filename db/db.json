@@ -89,6 +89,38 @@
     }
   ],
 
+  "newBalanceBanners": [
+    {
+      "bannerId": 4,
+      "brandName": "New Balance",
+      "bannerURL": "NewBalanceBanners/NewBalanceBanner.avif",
+      "bannerALT": "New Balance Banner",
+      "smallBannerURL": "NewBalanceBanners/NewBalanceBannerVertical.avif",
+      "hasButton": true,
+      "hasBannerText": true,
+      "buttonText": "Ver Lançamento",
+      "bannerText": "Para diferentes ritmos e distâncias",
+      "bannerCallText": "CORRA DO SEU JEITO",
+      "bannerButtonUrl": "/offer/brand/new balance/category/corrida"
+    }
+  ],
+
+  "asicsBanners": [
+    {
+      "bannerId": 5,
+      "brandName": "Asics",
+      "bannerURL": "AsicsBanners/AsicsBanner.avif",
+      "bannerALT": "Asics Banner",
+      "smallBannerURL": "AsicsBanners/AsicsBannerVertical.avif",
+      "hasButton": true,
+      "hasBannerText": true,
+      "buttonText": "Ver Promoções",
+      "bannerText": "Com o máximo da tecnologia Asics",
+      "bannerCallText": "VÁ MAIS LONGE, VÁ MAIS RÁPIDO, VÁ ALÉM",
+      "bannerButtonUrl": "/offer/brand/asics"
+    }
+  ],
+
   "adidasHomeShoes": [
     {
       "shoeId": 5,
@@ -133,6 +165,98 @@
       "shoePrice": 900.0,
       "shoeDiscountedPrice": 750.0,
       "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46]
+    }
+  ],
+
+  "newBalanceHomeShoes": [
+    {
+      "shoeId": 14,
+      "shoeBrandName": "New Balance",
+      "shoeURL": "NewBalanceShoes/NewBalanceIceBlue.avif",
+      "shoeName": "Fuelcell Supercomp Trainer V2",
+      "shoeColorway": "Ice Blue",
+      "shoeGender": "Feminino",
+      "shoePrice": 1599.99,
+      "shoeSizes": [34, 35, 36, 37, 39, 40]
+    },
+    {
+      "shoeId": 15,
+      "shoeBrandName": "New Balance",
+      "shoeURL": "NewBalanceShoes/NewBalanceBleachedLimeGlo.avif",
+      "shoeName": "Fuelcell Supercomp Trainer V2",
+      "shoeColorway": "Bleached Lime Glo",
+      "shoeGender": "Masculino",
+      "shoePrice": 1599.99,
+      "shoeSizes": [34, 35, 36, 37, 39, 40]
+    },
+    {
+      "shoeId": 16,
+      "shoeBrandName": "New Balance",
+      "shoeURL": "NewBalanceShoes/NewBalanceShellCoral.avif",
+      "shoeName": "Fuelcell Supercomp Pacer",
+      "shoeColorway": "Shell Coral",
+      "shoeGender": "Feminino",
+      "shoePrice": 519.99,
+      "shoeDiscountedPrice": 499.99,
+      "shoeSizes": [36, 37, 38]
+    },
+    {
+      "shoeId": 17,
+      "shoeBrandName": "New Balance",
+      "shoeURL": "NewBalanceShoes/NewBalanceBlackV3.avif",
+      "shoeName": "Fuelcell Rebel V3 Masculino",
+      "shoeColorway": "Black",
+      "shoeGender": "Masculino",
+      "shoePrice": 799.99,
+      "shoeDiscountedPrice": 699.99,
+      "shoeSizes": [38, 39, 42, 44]
+    }
+  ],
+
+  "asicsHomeShoes": [
+    {
+      "shoeId": 21,
+      "shoeBrandName": "Asics",
+      "shoeURL": "AsicsShoes/AsicsBlueSea.avif",
+      "shoeName": "NOVABLAST 4 Platinum",
+      "shoeColorway": "Sea Blue",
+      "shoeGender": "Feminino",
+      "shoeCategory": "Corrida",
+      "shoePrice": 1099.99,
+      "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46]
+    },
+    {
+      "shoeId": 22,
+      "shoeBrandName": "Asics",
+      "shoeURL": "AsicsShoes/AsicsBlue.avif",
+      "shoeName": "GEL-KAYANO 31",
+      "shoeColorway": "Blue",
+      "shoeGender": "Masculino",
+      "shoeCategory": "Corrida",
+      "shoePrice": 1299.99,
+      "shoeSizes": [38, 39, 40, 41, 42, 43, 44]
+    },
+    {
+      "shoeId": 23,
+      "shoeBrandName": "Asics",
+      "shoeURL": "AsicsShoes/AsicsCream.avif",
+      "shoeName": "GEL-KAYANO 14",
+      "shoeColorway": "Cream",
+      "shoeGender": "Masculino",
+      "shoeCategory": "Casual",
+      "shoePrice": 999.99,
+      "shoeSizes": [38, 39, 40, 41, 42, 43, 44]
+    },
+    {
+      "shoeId": 24,
+      "shoeBrandName": "Asics",
+      "shoeURL": "AsicsShoes/AsicsCreamBlack.avif",
+      "shoeName": "GEL-KAYANO 14",
+      "shoeColorway": "Cream Black",
+      "shoeGender": "Masculino",
+      "shoeCategory": "Casual",
+      "shoePrice": 999.99,
+      "shoeSizes": [38, 39, 40, 41, 42, 43, 44]
     }
   ],
 
@@ -296,6 +420,203 @@
       "shoePrice": 999.99,
       "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46],
       "shoeDescription": "Introduzido há mais de 3 décadas, o Dunk Low começou seu reinado nas quadras de basquete universitário. Desde então, tornou-se um ícone de espressão em quase toda fenda de cultura popular, desde o skate até a arte moderna. Fazendo menção a um sortimento de clássicos favoritos, os Dunks exclusivos do Japão Co.Jp (Também conhecido como Concept Japan), a silhueta retorna agora em uma colorway familiar, Varsit Red and Silver."
+    },
+    {
+      "shoeId": 14,
+      "shoeBrandName": "New Balance",
+      "shoeURL": "NewBalanceShoes/NewBalanceIceBlue.avif",
+      "shoeName": "Fuelcell Supercomp Trainer V2",
+      "shoeColorway": "Ice Blue",
+      "shoeGender": "Feminino",
+      "shoeCategory": "Corrida",
+      "shoePrice": 1599.99,
+      "shoeSizes": [34, 35, 36, 37, 39, 40],
+      "shoeDescription": "O Tênis de Corrida Feminino New Balance FuelCell Supercomp Trainer v2 entrega alta tecnologia para o seu treino com retorno de energia muito mais eficiente. Essa evolução é viabilizada pela tecnologia Energy Arc, a partir do contato com o solo, a entressola retorna energia à medida que se remodela."
+    },
+    {
+      "shoeId": 15,
+      "shoeBrandName": "New Balance",
+      "shoeURL": "NewBalanceShoes/NewBalanceBleachedLimeGlo.avif",
+      "shoeName": "Fuelcell Supercomp Trainer V2",
+      "shoeColorway": "Bleached Lime Glo",
+      "shoeGender": "Feminino",
+      "shoeCategory": "Corrida",
+      "shoePrice": 1599.99,
+      "shoeSizes": [34, 35, 36, 37, 39, 40],
+      "shoeDescription": "O Tênis de Corrida Feminino New Balance FuelCell Supercomp Trainer v2 entrega alta tecnologia para o seu treino com retorno de energia muito mais eficiente. Essa evolução é viabilizada pela tecnologia Energy Arc, a partir do contato com o solo, a entressola retorna energia à medida que se remodela."
+    },
+    {
+      "shoeId": 16,
+      "shoeBrandName": "New Balance",
+      "shoeURL": "NewBalanceShoes/NewBalanceShellCoral.avif",
+      "shoeName": "Fuelcell Supercomp Pacer",
+      "shoeColorway": "Shell Coral",
+      "shoeGender": "Feminino",
+      "shoeCategory": "Corrida",
+      "shoePrice": 519.99,
+      "shoeDiscountedPrice": 499.99,
+      "shoeSizes": [36, 37, 38],
+      "shoeDescription": "Conforto e velocidade! O Tênis com amortecimento Feminino New Balance FuelCell SuperComp Pacer traz duas tecnologias: Energy Arc, com placa de fibra de carbono na base da sola; e a FuelCell na entressola, que impulsiona você a ir mais longe. Peso (aproximado) tamanho 37: 157g."
+    },
+    {
+      "shoeId": 17,
+      "shoeBrandName": "New Balance",
+      "shoeURL": "NewBalanceShoes/NewBalanceBlackV3.avif",
+      "shoeName": "Fuelcell Rebel V3 Masculino",
+      "shoeColorway": "Black",
+      "shoeGender": "Masculino",
+      "shoeCategory": "Corrida",
+      "shoePrice": 799.99,
+      "shoeDiscountedPrice": 699.99,
+      "shoeSizes": [38, 39, 42, 44],
+      "shoeDescription": "O Tênis Masculino New Balance FuelCell Rebel v3 traz cabedal em Engineered Knit para manter você sempre em alto nível. O solado conta com a tecnologia FuelCell, que assegura maior retorno de energia, velocidade e propulsão. Peso (aproximado) tamanho 41: 209g; Drop: 6 mm."
+    },
+    {
+      "shoeId": 18,
+      "shoeBrandName": "New Balance",
+      "shoeURL": "NewBalanceShoes/NewBalanceBlack.avif",
+      "shoeName": "550",
+      "shoeColorway": "Black",
+      "shoeGender": "Masculino",
+      "shoeCategory": "Casual",
+      "shoePrice": 999.99,
+      "shoeDiscountedPrice": 799.99,
+      "shoeSizes": [39, 40, 41, 42, 44],
+      "shoeDescription": "Inspirado no basquete, o Tênis Masculino New Balance 550 homenageia o calçado original criado em 1989, ano que definiu uma geração de esportistas da modalidade. Com fechamento em cadarço para um ajuste seguro, o modelo agrega originalidade e autenticidade ao seu estilo."
+    },
+    {
+      "shoeId": 19,
+      "shoeBrandName": "New Balance",
+      "shoeURL": "NewBalanceShoes/NewBalanceMyrtle.avif",
+      "shoeName": "550",
+      "shoeColorway": "Myrtle",
+      "shoeGender": "Masculino",
+      "shoeCategory": "Casual",
+      "shoePrice": 999.99,
+      "shoeDiscountedPrice": 799.99,
+      "shoeSizes": [39, 40, 41, 42, 43, 44, 45, 46],
+      "shoeDescription": "Inspirado no basquete, o Tênis Masculino New Balance 550 homenageia o calçado original criado em 1989, ano que definiu uma geração de esportistas da modalidade. Com fechamento em cadarço para um ajuste seguro, o modelo agrega originalidade e autenticidade ao seu estilo."
+    },
+    {
+      "shoeId": 20,
+      "shoeBrandName": "New Balance",
+      "shoeURL": "NewBalanceShoes/NewBalanceSeaSalt.avif",
+      "shoeName": "550",
+      "shoeColorway": "Sea Salt",
+      "shoeGender": "Masculino",
+      "shoeCategory": "Casual",
+      "shoePrice": 999.99,
+      "shoeDiscountedPrice": 799.99,
+      "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46],
+      "shoeDescription": "Inspirado no basquete, o Tênis Masculino New Balance 550 homenageia o calçado original criado em 1989, ano que definiu uma geração de esportistas da modalidade. Com fechamento em cadarço para um ajuste seguro, o modelo agrega originalidade e autenticidade ao seu estilo."
+    },
+    {
+      "shoeId": 21,
+      "shoeBrandName": "Asics",
+      "shoeURL": "AsicsShoes/AsicsBlueSea.avif",
+      "shoeName": "NOVABLAST 4 Platinum",
+      "shoeColorway": "Sea Blue",
+      "shoeGender": "Feminino",
+      "shoeCategory": "Corrida",
+      "shoePrice": 1099.99,
+      "shoeSizes": [38, 39, 40, 41, 42, 43, 44, 45, 46],
+      "shoeDescription": "O NOVABLAST™ 4 apresenta uma nova geometria de entressola e solado que ajuda a produzir uma passada mais energizada. Uma construção da lingueta em formato de asa que ajuda a melhorar o ajuste enquanto reduz o movimento da lingueta. Novo cabedal que oferece mais elasticidade, respirabilidade e durabilidade. O amortecimento FF BLAST™ PLUS ECO é feito com 20% de materiais de base biológica reciclada. Esta tecnologia ajuda a criar uma aterrissagens mais suaves e uma passada mais energizada."
+    },
+    {
+      "shoeId": 22,
+      "shoeBrandName": "Asics",
+      "shoeURL": "AsicsShoes/AsicsBlue.avif",
+      "shoeName": "GEL-KAYANO 31",
+      "shoeColorway": "Blue",
+      "shoeGender": "Masculino",
+      "shoeCategory": "Corrida",
+      "shoePrice": 1299.99,
+      "shoeSizes": [38, 39, 40, 41, 42, 43, 44],
+      "shoeDescription": "Descubra um novo conceito de estabilidade adaptável e conforto premium com o GEL-KAYANO™ 31. O 4D GUIDANCE SYSTEM™ fornece estabilidade adaptável. Proporciona uma passada mais equilibrada durante os treinos de longa distância. Entressola com amortecimento FF BLAST™ PLUS ECO e tecnologia PureGEL™. Esses recursos fazem com que o seu treino de longa distância seja surpreendentemente suave e confortável."
+    },
+    {
+      "shoeId": 23,
+      "shoeBrandName": "Asics",
+      "shoeURL": "AsicsShoes/AsicsCream.avif",
+      "shoeName": "GEL-KAYANO 14",
+      "shoeColorway": "Cream",
+      "shoeGender": "Masculino",
+      "shoeCategory": "Casual",
+      "shoePrice": 999.99,
+      "shoeSizes": [38, 39, 40, 41, 42, 43, 44],
+      "shoeDescription": "O GEL-KAYANO™ 14 SUEDE tem um cabedal com camadas de mesh e camurça dando um toque mais premium e moderno para o modelo. Sua combinação de tons neutros e suaves são perfeitos para incrementar seu look. Estética técnica, simbólica do final dos anos 2000. O primeiro GEL-KAYANO™ a ser desenhado por alguém diferente de Toshikazu Kayano."
+    },
+    {
+      "shoeId": 24,
+      "shoeBrandName": "Asics",
+      "shoeURL": "AsicsShoes/AsicsCreamBlack.avif",
+      "shoeName": "GEL-KAYANO 14",
+      "shoeColorway": "Cream Black",
+      "shoeGender": "Masculino",
+      "shoeCategory": "Casual",
+      "shoePrice": 999.99,
+      "shoeSizes": [38, 39, 40, 41, 42, 43, 44],
+      "shoeDescription": "O GEL-KAYANO™ 14 SUEDE tem um cabedal com camadas de mesh e camurça dando um toque mais premium e moderno para o modelo. Sua combinação de tons neutros e suaves são perfeitos para incrementar seu look. Estética técnica, simbólica do final dos anos 2000. O primeiro GEL-KAYANO™ a ser desenhado por alguém diferente de Toshikazu Kayano."
+    },
+    {
+      "shoeId": 25,
+      "shoeBrandName": "Asics",
+      "shoeURL": "AsicsShoes/AsicsSilver.avif",
+      "shoeName": "GEL-KAYANO 14",
+      "shoeColorway": "Silver",
+      "shoeGender": "Masculino",
+      "shoeCategory": "Casual",
+      "shoePrice": 999.99,
+      "shoeSizes": [38, 39, 40, 41, 42, 43, 44],
+      "shoeDescription": "O GEL-KAYANO™ 14 SUEDE tem um cabedal com camadas de mesh e camurça dando um toque mais premium e moderno para o modelo. Sua combinação de tons neutros e suaves são perfeitos para incrementar seu look. Estética técnica, simbólica do final dos anos 2000. O primeiro GEL-KAYANO™ a ser desenhado por alguém diferente de Toshikazu Kayano."
+    },
+    {
+      "shoeId": 26,
+      "shoeBrandName": "Nike",
+      "shoeURL": "NikeShoes/NikeIndustrialBlue.avif",
+      "shoeName": "Air Jordan 4",
+      "shoeColorway": "Industrial Blue",
+      "shoeGender": "Masculino",
+      "shoeCategory": "Casual",
+      "shoePrice": 1799.99,
+      "shoeSizes": [38, 39],
+      "shoeDescription": "Calce um clássico. Os adorados AJ4 retornam com um couro premium em branco off, nobuck em cinza e detalhes impressionantes em Industrial Blue, criando uma estética geral elegante. Mantendo-nos fiéis à forma, reformulamos este ícone com as especificações do modelo original de 1989 com todos os acabamentos de assinatura: um logotipo Jumpman arrojado, detalhes em rede, as famosas 'asas' e o posicionamento da marca Nike Air no calcanhar para completar o estilo tradicional."
+    },
+    {
+      "shoeId": 27,
+      "shoeBrandName": "Nike",
+      "shoeURL": "NikeShoes/NikeOxidizedGreen.avif",
+      "shoeName": "Air Jordan 4",
+      "shoeColorway": "Oxidized Green",
+      "shoeGender": "Masculino",
+      "shoeCategory": "Casual",
+      "shoePrice": 1799.99,
+      "shoeSizes": [38, 39, 40, 41, 42, 43, 44],
+      "shoeDescription": "Entre em um clássico. O querido AJ4 retorna com um pouco mais de brilho. A parte superior em couro branco imaculado apresenta detalhes em verde oxidado, trazendo um brilho metálico aos ilhós, à entressola e à marca. Mantendo-se fiel à forma, o amortecimento Nike Air no calcanhar e no antepé suaviza o seu passo. Elementos de design originais, como ilhós flutuantes e painéis em forma de malha, fazem com que pareça tão moderno quanto em 1989."
+    },
+    {
+      "shoeId": 28,
+      "shoeBrandName": "Nike",
+      "shoeURL": "NikeShoes/NikeThunder.avif",
+      "shoeName": "Air Jordan 4",
+      "shoeColorway": "Thunder",
+      "shoeGender": "Masculino",
+      "shoeCategory": "Casual",
+      "shoePrice": 1699.99,
+      "shoeSizes": [38, 39, 40, 41, 42, 43, 44],
+      "shoeDescription": "Não se deixe enganar - o AJ4 'Thunder' está aqui de verdade. Direto do cofre, a cobiçado colorway retorna fiel à forma. Ele tem os mesmos materiais e detalhes vistosos em Tour Yellow que atraíram os fãs de tênis em 2006, além de detalhes originais como um ousado Jumpman na língua e as famosas 'asas' que permitem que você personalize sua configuração de cadarço. Isso não é uma imitação. Pegue-os enquanto pode."
+    },
+    {
+      "shoeId": 29,
+      "shoeBrandName": "Nike",
+      "shoeURL": "NikeShoes/NikeUniversityBlue.avif",
+      "shoeName": "Air Jordan 4",
+      "shoeColorway": "University Blue",
+      "shoeGender": "Masculino",
+      "shoeCategory": "Casual",
+      "shoePrice": 1399.99,
+      "shoeSizes": [38, 39, 40, 41],
+      "shoeDescription": "Seguindo uma maquiagem exclusiva para jogadores criada para uma das instituições líderes da marca, esta nova versão do Air Jordan 4 combina materiais premium com um esquema de cores consagrado pelo tempo. O calçado exibe um cabedal de couro camurça genuíno em University Blue, junto com uma rede de mesh OG no painel lateral e parte inferior da língua. Fazendo referência à marca, o estilo incorpora respingos de cimento em toda a peça e inclui uma etiqueta representando o número 23 de MJ na língua."
     }
   ]
 }
