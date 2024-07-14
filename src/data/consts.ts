@@ -122,22 +122,22 @@ export const NavbarBrandOptions = [
   },
   {
     option: 'New Balance',
-    url: 'offer/brand/newbalance',
+    url: 'offer/brand/new balance',
     subOptions: [
       {
         subLabel: 'Gênero',
         options: [
           {
             subOption: 'Masculino',
-            subUrl: 'offer/gender/masculino/brand/newbalance'
+            subUrl: 'offer/gender/masculino/brand/new balance'
           },
           {
             subOption: 'Feminino',
-            subUrl: 'offer/gender/feminino/brand/newbalance'
+            subUrl: 'offer/gender/feminino/brand/new balance'
           },
           {
             subOption: 'Unissex',
-            subUrl: 'offer/gender/unissex/brand/newbalance'
+            subUrl: 'offer/gender/unissex/brand/new balance'
           }
         ]
       },
@@ -146,15 +146,15 @@ export const NavbarBrandOptions = [
         options: [
           {
             subOption: 'Corrida',
-            subUrl: 'offer/brand/newbalance/category/corrida'
+            subUrl: 'offer/brand/new balance/category/corrida'
           },
           {
             subOption: 'Basquete',
-            subUrl: 'offer/brand/newbalance/category/basquete'
+            subUrl: 'offer/brand/new balance/category/basquete'
           },
           {
             subOption: 'Casual',
-            subUrl: 'offer/brand/newbalance/category/casual'
+            subUrl: 'offer/brand/new balance/category/casual'
           }
         ]
       }
