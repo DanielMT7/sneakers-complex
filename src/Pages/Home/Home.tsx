@@ -23,6 +23,24 @@ const Home = () => {
 
       <HomeShoes searchParam={'adidasHomeShoes'} />
 
+      <div>
+        <h1 className="text-2xl sm:text-4xl font-bold">New Balance</h1>
+      </div>
+
+      <Banner
+        searchParams={{ searchParam: 'newBalanceBanners', searchId: 4 }}
+      />
+
+      <HomeShoes searchParam={'newBalanceHomeShoes'} />
+
+      <div>
+        <h1 className="text-2xl sm:text-4xl font-bold">Asics</h1>
+      </div>
+
+      <Banner searchParams={{ searchParam: 'asicsBanners', searchId: 5 }} />
+
+      <HomeShoes searchParam={'asicsHomeShoes'} />
+
       <Brands />
     </div>
   )
