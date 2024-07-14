@@ -12,15 +12,29 @@ Sneakers Complex is a web application for sneaker enthusiasts and shoppers. The 
 
 ## Features
 
-- Promotional Banners
-- Shoes Highlight by Brand
-- Shoes Page
-- Available Sizes
-- Related shoes carrousel
-- Offers Page
-- Filters: Gender, Brand, Category
-- Sort: Release Date, Highest and Lowest Price
-- Shopping Cart using useContext
+### Home
+
+- Promotional Banners.
+- Shoes Highlight by Brand.
+- Navbar item dropdown menu.
+- Side bar menu with history (mobile only).
+
+### Shoe Page
+
+- Shoes information: description, price and discounted prices.
+- Available Sizes.
+- Related shoes carrousel.
+
+### Offers Page
+
+- Filters: Gender, Brand, Category, Model.
+- Sort: Release Date, Highest and Lowest Price.
+- Items pagination.
+
+### Cart
+
+- Increse, decrease and Delete items.
+- localStorage to persist items in cart.
 
 ## Screenshots
 
