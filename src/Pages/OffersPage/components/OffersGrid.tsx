@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 import OfferShoe from './OfferShoe'
 
@@ -17,6 +17,13 @@ const OffersGrid = ({
 }: OffersGridProps) => {
   const [currentPage, setCurrentPage] = useState(1)
   const itemsPerPage = 12
+
+  useEffect(() => {
+    const totalPages = Math.ceil(shoes.length / itemsPerPage)
+    if (currentPage > totalPages) {
+      setCurrentPage(totalPages > 0 ? totalPages : 1)
+    }
+  }, [shoes, currentPage, itemsPerPage])
 
   const indexOfLastItem = currentPage * itemsPerPage
   const indexOfFirstItem = indexOfLastItem - itemsPerPage
